@@ -7,8 +7,19 @@
       "RelativeMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|d:\\works\\unityprojects\\arrow maze\\assets\\script\\drawline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|D:\\Works\\UnityProjects\\Arrow Maze\\assets\\script\\wolltaphandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wolltaphandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|D:\\Works\\UnityProjects\\Arrow Maze\\assets\\script\\drawline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\drawline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|D:\\Works\\UnityProjects\\Arrow Maze\\assets\\script\\autocentercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206A7FF6-E1E6-B3B4-EA30-C1C0E0365B8C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\autocentercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Works\\UnityProjects\\My project (3)\\Assets\\Script\\LevelEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +29,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoCenterCamera.cs",
+              "DocumentMoniker": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\AutoCenterCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AutoCenterCamera.cs",
+              "ToolTip": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\AutoCenterCamera.cs",
+              "RelativeToolTip": "Assets\\Script\\AutoCenterCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:26:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelEditor.cs",
+              "DocumentMoniker": "D:\\Works\\UnityProjects\\My project (3)\\Assets\\Script\\LevelEditor.cs",
+              "RelativeDocumentMoniker": "..\\My project (3)\\Assets\\Script\\LevelEditor.cs",
+              "ToolTip": "D:\\Works\\UnityProjects\\My project (3)\\Assets\\Script\\LevelEditor.cs",
+              "RelativeToolTip": "..\\My project (3)\\Assets\\Script\\LevelEditor.cs",
+              "ViewState": "AgIAALECAAAAAAAAAAAcwPMCAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:21:26.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WollTapHandle.cs",
+              "DocumentMoniker": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\WollTapHandle.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WollTapHandle.cs",
+              "ToolTip": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\WollTapHandle.cs",
+              "RelativeToolTip": "Assets\\Script\\WollTapHandle.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwDMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:18:59.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DrawLine.cs",
               "DocumentMoniker": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\DrawLine.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DrawLine.cs",
@@ -41,7 +91,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GridManager.cs",
               "ToolTip": "D:\\Works\\UnityProjects\\Arrow Maze\\Assets\\Script\\GridManager.cs",
               "RelativeToolTip": "Assets\\Script\\GridManager.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T03:35:10.664Z",
               "EditorCaption": ""

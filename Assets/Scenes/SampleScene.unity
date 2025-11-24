@@ -356,12 +356,13 @@ MonoBehaviour:
   width: 5
   height: 4
   listwollColor: []
-  lockTexture: {fileID: 0}
+  lockTexture: {fileID: 2800000, guid: 21204b17bb029a84baaa5bc36aa34a06, type: 3}
   ropeLine: {fileID: 0}
-  ropeColor: {r: 1, g: 0, b: 1, a: 1}
+  ropeColor: {r: 1, g: 1, b: 1, a: 1}
   ropeWidth: 1
   numLinePoints: 5
-  woolyarn: {fileID: 0}
+  cubeIndex: 0
+  woolyarn: {fileID: 5620322925702499293, guid: ca71dd9a3cad85c4db9d9938374cea73, type: 3}
   lineRowOrCol: 1
 --- !u!4 &1733756266
 Transform:

@@ -9,14 +9,14 @@ public class AutoCenterCamera : MonoBehaviour
     public GridManager gridManager;
     public float cameraHeight = 10f;
     public float cameraDistance = 15f;
-    // Start is called before the first frame update
+
     void Start()
     {
-        if(gridManager == null)
+        if (gridManager == null)
         {
             gridManager = FindObjectOfType<GridManager>();
         }
-        if(gridManager != null)
+        if (gridManager != null)
         {
             PositionCameraToGridCenter();
         }
@@ -24,20 +24,37 @@ public class AutoCenterCamera : MonoBehaviour
 
     private void PositionCameraToGridCenter()
     {
-        // tính toán tâm của grid
-        float CenterX = (gridManager.width - 1) / 2f;
-        float CenterZ = (gridManager.height - 1) / 2f;
+        // Tính toán tâm của grid
+        float centerX = (gridManager.width - 1) / 2f;
+        float centerZ = (gridManager.height - 1) / 2f;
+        Vector3 gridCenter = new Vector3(centerX, 0, centerZ);
 
-        Vector3 GridCenter = new Vector3(CenterX , 0 , CenterZ);
+        // Position camera thẳng trên tâm grid
+        transform.position = new Vector3(centerX, cameraHeight, centerZ);
 
-        transform.position = new Vector3(CenterX, cameraHeight, CenterZ );
-        
-        transform.LookAt(GridCenter + Vector3.up * cameraHeight * 0.3f);
+        // FIX: Rotation (90, 0, 0) để nhìn thẳng từ trên xuống (top-down)
+        transform.rotation = Quaternion.Euler(90f, 0f, 0f);  // X=90 độ: nhìn xuống thẳng
+
+        // Bỏ LookAt vì rotation trực tiếp hiệu quả hơn (tránh lệch nhỏ)
+        // Nếu cần look at cụ thể: transform.LookAt(gridCenter); nhưng rotation 90 tốt hơn
+
+        // FIX: Set Camera thành Orthographic để view phẳng từ trên (trong code hoặc Inspector)
+        Camera cam = GetComponent<Camera>();
+        if (cam != null)
+        {
+            cam.orthographic = true;  // Orthographic mode (2D-like từ trên)
+            cam.orthographicSize = cameraHeight / 2f;  // Size để fit grid (điều chỉnh nếu cần)
+        }
+        else
+        {
+            Debug.LogWarning("Camera component không tồn tại trên GO này!");
+        }
+
+        Debug.Log($"✅ Camera chiếu thẳng từ trên tâm grid ({centerX:F1}, {cameraHeight}, {centerZ:F1}). Orthographic size: {cam.orthographicSize}.");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
